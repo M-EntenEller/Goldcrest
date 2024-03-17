@@ -1,0 +1,1 @@
+java -classpath bin "full path in bin to program with main program"

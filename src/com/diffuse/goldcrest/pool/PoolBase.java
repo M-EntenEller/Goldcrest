@@ -49,7 +49,7 @@ abstract public class PoolBase {
 		if( connection != null) {
 			try (Connection; connection){
 			} catch (Exception e) {
-				// Closing connection failed.
+				// continue with close regardless.
 			}
 		}
 		

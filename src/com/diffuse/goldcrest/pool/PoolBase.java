@@ -74,12 +74,11 @@ abstract public class PoolBase {
 	}
 	
 	/**
-    * Set the query timeout, if it is supported by the driver.
-    *
-    * @param statement a statement to set the query timeout on
-    * @param timeoutSec the number of seconds before timeout
-    */
-	
+	* Set the query timeout, if it is supported by the driver.
+	*
+	* @param statement a statement to set the query timeout on
+	* @param timeoutSec the number of seconds before timeout
+	*/
 	private void setQueryTimeout(final Statement statement, final int timeoutSec) {
 		
 		try {
